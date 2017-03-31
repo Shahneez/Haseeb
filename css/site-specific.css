@@ -1,6 +1,6 @@
 body{
-    font-family: 'Roboto Condensed', helvetica, sans-serif;
-    background: #F8F8FF
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background: #FFFFFF
 }
 
 div.title{
@@ -9,19 +9,20 @@ div.title{
 }
 
 h1{
-  color: #2F4F4F;
-    font-weight: 400;
-    font-size: 2.4em;
+  color: #404040;
+    font-weight: 500;
+    font-size: 3.4em;
     max-width: 800px;
     text-align: left;
-    margin: 25px, 25px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
+    margin: 10px, 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 100%;
+    padding-bottom: 20px;
 }
 
 h2{
-  color: #2F4F4F;  
+  color: #7F7F7F;  
     text-align: left;
 }
 
@@ -32,17 +33,18 @@ h3{
     max-width: 800px;
     text-align: left;
     margin-top: 5px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: auto;
 }
 
 div.bio{
-  color: #000000; 
+  color: #000000;
+    page-break-before: auto; 
     max-width: 800px;
     margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 2px;
+    margin-left: 10px;
 }
 
 img.bioImage{
@@ -68,8 +70,8 @@ p.bioText > a:hover{
 div.linkList{
     max-width: 800px;
     margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 li.assignmentLink{
