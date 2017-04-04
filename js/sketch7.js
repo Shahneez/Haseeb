@@ -99,7 +99,7 @@ function draw(){
     if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(showPosition);
     } else {
-    updateByCity(city);
+        updateByCity(sendRequest);
     }
 }
 
