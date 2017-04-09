@@ -1,5 +1,4 @@
 var apiKey = "2e47b84bea35acf3040b94f081181471";
-var apikey2 = '6b7f88ea398f85994ccb7cab38d16545';
 var city;
 var temp;
 var weatherData;
