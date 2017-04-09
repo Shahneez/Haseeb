@@ -16,7 +16,7 @@ function setup(){
     windHtml = select('#wind');
     directionHtml = select('#direction');
     humidityHtml = select('#humidity');
-    locHtml = select('#location');
+    // locHtml = select('#q');
     tempHtml = select('#temp');
     button.mousePressed(updateByCity);
 }
@@ -98,7 +98,7 @@ function update() {
     windHtml.html(wind);
     directionHtml.html(direction);
     humidityHtml.html(humidity);
-    locHtml.html(location);
+    // locHtml.html(q);
     tempHtml.html(temp);
     icon.src = "../img/codes/" + icon + ".png";
     // wind.innerHTML = wind;
@@ -107,20 +107,20 @@ function update() {
     // loc.innerHTML = loc;
     // temp.innerHTML = temp;
     
-}
+// }
 
-function showPosition(position) {
-    updateByGeo(position.coords.latitude, position.coords.longitude);
-}
+// function showPosition(position) {
+//     updateByGeo(position.coords.latitude, position.coords.longitude);
+// }
 
 // // ***** Draw function ***** //
-function draw(){
-    temp = document.getElementById("temperature");
-    loc = document.getElementById("location");
-    icon = document.getElementById("icon");
-    humidity = document.getElementById("humidity");
-    wind = document.getElementById("wind");
-    direction = document.getElementById("direction");
+// function draw(){
+//     temp = document.getElementById("temperature");
+//     loc = document.getElementById("location");
+//     icon = document.getElementById("icon");
+//     humidity = document.getElementById("humidity");
+//     wind = document.getElementById("wind");
+//     direction = document.getElementById("direction");
     
 //     if(navigator.geolocation){
 //     navigator.geolocation.getCurrentPosition(showPosition);
